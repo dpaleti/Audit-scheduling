@@ -37,3 +37,22 @@ Using google OR tool set https://developers.google.com/optimization/introduction
 
       # Objective is to to minimize the TOTAL DISTANCE TRAVELLED by the Auditors
       # Minimize the total distance travelled by the auditors, need not be the minimum distance travelled by individual auditor
+      
+      # Sample Output:
+      OPTIMAL - Minimizing Total distance travelled by all auditors
+      Auditor 0 audits Site 0 daystoaudit 4
+      Auditor 0 audits Site 4 daystoaudit 5
+      Auditor 0 audits Site 6 daystoaudit 10
+      Auditor 1 audits Site 2 daystoaudit 25
+      Auditor 1 audits Site 3 daystoaudit 24
+      Auditor 1 audits Site 7 daystoaudit 24
+      Auditor 2 audits Site 1 daystoaudit 29
+      Auditor 2 audits Site 5 daystoaudit 9
+
+
+      Statistics
+        - conflicts       : 1260
+        - branches        : 1391
+        - wall time       : 0.031666 s
+
+      Process finished with exit code 0
